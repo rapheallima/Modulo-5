@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #2aeaff;
+    font-family: 'Lumanosimo', cursive;
+}
+
+h3 {
+    color: #2aeaff;
+    background-color: rgb(34, 9, 158);
+    padding: 5px;
+    font-family: 'Lumanosimo', cursive;
+}
+
+.data {
+    font-size: 0.8em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+body {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e6e6e6;
+    font-family: 'Tektur', cursive;
+}
+
+#cabecalho {
+    background: url(https://wallpapers.com/images/hd/genshin-impact-xiao-with-lantern-yp7fm5v79zts1kny.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+}
+
+#postagens {
+    float: left;
+    width: 660px;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.postagem img {
+    width: 620px;
+}
+
+#lateral {
+    background: white;
+    float: right;
+    width: 240px;
+}
+
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #e6e6e6;
+}
+
+#rodape {
+    text-align: center;
+    padding: 15px;
+    clear: both;
+    background: #ccc;
+}
+
+#principal {
+    padding: 15px;
+    width: 1080px;
+    margin: auto;
+
+}
+
+#logo img {
+    height: 180px;
+}
+
+#menu a {
+    padding: 5px; 
+    margin: 24px;
+    font-family: 'Lumanosimo', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+.postagem a:link,
+.postagem a:visited {
+    color: #2aeaff;
+}
+
+.postagem a:hover {
+    color: white;
+    background: #2aeaff;
+    text-decoration: underline;
+}
+
+.postagem-lateral a:link,
+.postagem-lateral a:visited {
+    color: #2aeaff;
+}
+
+.postagem-lateral a:hover {
+    color: white;
+    background: #2aeaff;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(34, 9, 158);
+}
+
+#cabecalho a:link,
+#cabecalho a:visited {
+    color: white;
+}
+
+#cabecalho a:hover {
+    color: #2aeaff;
+    background: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#cabecalho a:active {
+    color: rgb(34, 9, 158);
+}
+
+/* --------------------  aba contato  -------------------- */
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#rodape-contato {
+    margin-top: 420px;
+    text-align: center;
+    padding: 15px;
+    clear: both;
+    background: #ccc;
+    margin-left: 420px;
+    margin-right: 420px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    background-color: #2aeaff;
+    color: rgb(34, 9, 158);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #6b90f6;
+}
+
+input:focus, textarea:focus {
+    outline-color: #2aeaff;
+}
+
+#contact {
+    padding: 15px;
+    width: 1080px;
+    margin: auto;
+}
+
+#lateral-contato {
+    background: white;
+    float: right;
+    width: 660px;
+    margin-bottom: 10px;  
+}
+.img-contato {
+    max-width: 155px;
+    float: left; 
+    padding: 23px;
+
+}
